@@ -18,6 +18,23 @@ java 17.0.11 2024-04-16 LTS
 - Instalar appium Inspector
 - Crear un emulador en android studio 
 
+pagina oficial https://codecept.io/helpers/Appium/#appium
 
+configurar inizializar codecept 
+npx codeceptjs init
+<image src="/Users/AMCO/Desktop/setupCodeceptAppium.png" alt="setupCodeceptAppium">
+
+Crar primer test
+npx codeceptjs gt
+
+Validar la configuracion con appium doctor
+npm i -g appium-doctor
+
+instalar appium global
+npm i -g appium
+
+crear un test de prueba ej. login_test.js
+
+correr test npx codeceptjs run  --debug
 
 ```

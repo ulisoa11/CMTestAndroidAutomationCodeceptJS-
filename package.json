@@ -1,0 +1,12 @@
+{
+  "name": "cmas-automationcodeceptjsappium",
+  "version": "1.0.0",
+  "description": "```sh {\"id\":\"01J59BHGGWX2RKQYP0R9EY160Q\"} 1. Setup enviroment",
+  "main": "codecept.conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
