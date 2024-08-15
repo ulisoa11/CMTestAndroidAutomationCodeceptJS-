@@ -14,8 +14,8 @@ exports.config = {
     }
   },
   include: {
-    //I: './steps_file.js',
-    //loginPagePage: "./pages/loginPage.js",
+    I: './steps_file.js',
+    loginPagePage: "./pages/loginPage.js",
     landingPage: "./pages/landingPage.js"
   },
   name: 'CMAS-AutomationCodeceptJSAppium'

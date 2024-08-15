@@ -1,6 +1,6 @@
 Feature('login');
 
-Scenario('test something',  ({ I }) => {
-    I.waitForVisible('//android.widget.Button[@resource-id="com.telcel.imk:id/button_accept"]',5)
-    I.tap('//android.widget.Button[@resource-id="com.telcel.imk:id/button_accept"]');
+Scenario('Login: con email usuario SUSCRITO',  ({ I , loginPagePage}) => {
+    loginPagePage.loginWithEmailSuscrito("ulisoa11@gmail.com", "ClaroMusica1")
+    loginPagePage.validarAlertaSuscritoBienvenida()
 });

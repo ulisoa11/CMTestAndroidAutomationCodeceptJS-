@@ -18,13 +18,13 @@ module.exports = {
 
   // introducing methods
   aceptarPermisos() {
-    I.waitForVisible(this.buttonElement.btnAceptarYContinuar,5)
+    I.waitForVisible(this.buttonElement.btnAceptarYContinuar,8)
     I.see(this.labelElement.lblBienvenido)
     I.tap(this.buttonElement.btnAceptarYContinuar);
   },
 
   RechazarPermisosYSalirAceptar() {
-    I.waitForVisible(this.labelElement.lblRechazarPermisosYSalir,5)
+    I.waitForVisible(this.labelElement.lblRechazarPermisosYSalir,8)
     I.see(this.labelElement.lblBienvenido)
     I.tap(this.labelElement.lblRechazarPermisosYSalir);
     I.see(this.labelElement.lblEstasSeguro)
@@ -33,7 +33,7 @@ module.exports = {
   },
 
   RechazarPermisosYSalirRechazar() {
-    I.waitForVisible(this.labelElement.lblRechazarPermisosYSalir,5)
+    I.waitForVisible(this.labelElement.lblRechazarPermisosYSalir,8)
     I.see(this.labelElement.lblBienvenido)
     I.tap(this.labelElement.lblRechazarPermisosYSalir);
     I.see(this.labelElement.lblEstasSeguro)
