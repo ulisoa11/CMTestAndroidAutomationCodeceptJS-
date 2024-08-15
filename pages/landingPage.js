@@ -41,4 +41,9 @@ module.exports = {
     I.tap(this.buttonElement.btnRechazarPermiso)
   },
 
+  tapEntrar(){
+    I.waitForVisible(this.buttonElement.btnEntrar,5)
+    I.click(this.buttonElement.btnEntrar);
+  }
+
 }
