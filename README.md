@@ -35,7 +35,11 @@ npm i -g appium
 
 crear un test de prueba ej. login_test.js
 
-correr todos los test npx codeceptjs run  --debug
-correr un feature especifico ej login:  npx codeceptjs run --grep "Login" --debug
+correr todos los test features npx codeceptjs run  --debug
+correr un feature completo especifico ej login:  npx codeceptjs run --grep "Login" --debug
+corre un ecenario ej:  
+npx codeceptjs run --grep "Login: con email usuario SUSCRITO" --debug
+npx codeceptjs run --grep "login: con email usuario REGISTRADO" --debug     
+
 
 ```
